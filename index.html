@@ -3,60 +3,81 @@
 
 <head>
   <meta charset="utf-8 ">
-  <title> 테스트 </title>
+  <title> 해커스 한나 쌤 </title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <style media="screen">
 
-    .hero {
+    .header {
       background-color : #d01715;
       color : white;
       width : 100%;
       height : 150px;
-      line-height: 130px;
+      line-height: 150px;
       font-size : 60px;
       text-align :center;
     }
-    .shTable {
+    .content {
       width : 100%;
       text-align :center;
+      /* margin-top: 2rem; */
+      background-color: rgb(203, 198, 196);
+      /* background: #a16666; */
     }
     .table {
-      width : 70%;
-      text-align : left;
-        margin: auto;
+      width : 80%;
+      text-align : center;
+      margin: auto;
+        /* background: rgb(133, 134, 34) ; */
+      border-style: solid;
+    }
+    .text {
+      width: 750px;
+      margin: auto;
+    }
+    th {
+      background-color:  #f04442;
+      text-align :center;
+      margin: auto;
+      color:  white
+    }
+    img {
+      text-align: center;
+      margin: auto;
+    }
+
+    @media screen and (max-width:750px) {
+      .text {
+        width: 100%;
+
       }
-      @media screen and (max-width:600px) {
-        body {
-          display:  block;
-        }
-        .table {
-          width : 95%;
-          text-align : left;
-            margin: auto;
+      .table {
+        width: 95%;
+        text-align : center;
+          margin: auto;
           }
-          .hero {
-            font-size: 30px;
-          }
-      }
+  }
 }
 
   </style>
 </head>
 
 <body>
-  <section class="hero" style="">
-    <div class="hero-body">
-      <p class="title">
-        HACKERS ACADEMIA
-      </p>
+  <header class="header" >
+    <p style="margin : 0rem;" class="title">
+      HACKERS
+    </p>
+    <p style="margin : 0rem; color : white">sub title</p>
+  </header>
 
-    </div>
-  </section>
   <div class="topbox">
-    <article class="shTable">
-      <table class="table">
+    <article class="content">
+      <div class="text" style="background-color : white">
+        <img width="250px " src="asets/hanna.png" alt="">
+
+
+      <table class="table table-bordered">
         <thead>
           <tr>
             <th>Day</th>
@@ -96,49 +117,50 @@
               </audio>
             </td>
           <tr>
-            <tr>
-              <th>Day11</th>
-              <td>
-                <audio controls>
-                  <source src="asets/Day11.mp3" type="audio/mpeg">
-                </audio>
-              </td>
-            <tr>
-            <tr>
-              <th>Day12</th>
-              <td>
-                <audio controls>
-                  <source src="asets/Day12.mp3" type="audio/mpeg">
-                </audio>
-              </td>
-            <tr>
-            <tr>
-              <th>Day13</th>
-              <td>
-                <audio controls>
-                  <source src="asets/Day13.mp3" type="audio/mpeg">
-                </audio>
-              </td>
-            <tr>
-            <tr>
-              <th>Day14</th>
-              <td>
-                <audio controls>
-                  <source src="asets/Day14.mp3" type="audio/mpeg">
-                </audio>
-              </td>
-            <tr>
-            <tr>
-              <th>Day15</th>
-              <td>
-                <audio controls>
-                  <source src="asets/Day15.mp3" type="audio/mpeg">
-                </audio>
-              </td>
-            <tr>
+          <tr>
+            <th>Day11</th>
+            <td>
+              <audio controls>
+                <source src="asets/Day11.mp3" type="audio/mpeg">
+              </audio>
+            </td>
+          <tr>
+          <tr>
+            <th>Day12</th>
+            <td>
+              <audio controls>
+                <source src="asets/Day12.mp3" type="audio/mpeg">
+              </audio>
+            </td>
+          <tr>
+          <tr>
+            <th>Day13</th>
+            <td>
+              <audio controls>
+                <source src="asets/Day13.mp3" type="audio/mpeg">
+              </audio>
+            </td>
+          <tr>
+          <tr>
+            <th>Day14</th>
+            <td>
+              <audio controls>
+                <source src="asets/Day14.mp3" type="audio/mpeg">
+              </audio>
+            </td>
+          <tr>
+          <tr>
+            <th>Day15</th>
+            <td>
+              <audio controls>
+                <source src="asets/Day15.mp3" type="audio/mpeg">
+              </audio>
+            </td>
+          <tr>
 
         </tbody>
       </table>
+      </div>
     </article>
 
   </div>
