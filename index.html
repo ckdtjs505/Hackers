@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="ko" dir="ltr">
 
 <head>
@@ -9,110 +10,134 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Francois+One|Permanent+Marker" rel="stylesheet">
-  <style media="screen">
-	body {
-	font-family: 'Permanent Marker', cursive;
-		
-	}
-    .header {
-	font-family: 'Permanent Marker', cursive;
- 	font-family: 'Francois One', sans-serif;
-      background-color : #d01715;
-      color : white;
-      width : 100%;
-      height : 150px;
-      line-height: 150px;
-      font-size : 60px;
-      text-align :center;
-    }
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower" rel="stylesheet">
+<style media="screen">
+  body {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Inconsolata', monospace;
+  }
+
+  .header {
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Francois One', sans-serif;
+    background-color: #d01715;
+    color: white;
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .body {
+    width: 100%;
+    text-align: center;
+    background-color: #ebe7e6;
+  }
+
+  .content {
+    width: 950px;
+    height: 1200px;
+    margin: auto;
+    background-color: #fafafb;
+  }
+
+  .table {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    border-style: solid;
+  }
+
+  th {
+    background-color: #f04442;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+  }
+
+  img {
+    text-align: center;
+    margin: auto;
+  }
+
+  audio {
+    width: 100%;
+  }
+
+  .day {
+    width: 15%;
+  }
+
+  footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+  }
+
+  footer a {
+    color: #f5f5f5;
+  }
+
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width:950px) {
+    .title {}
+
     .content {
-      width : 100%;
-      text-align :center;
-      /* margin-top: 2rem; */
-      background-color: rgb(203, 198, 196);
-      /* background: #a16666; */
+      width: 100%;
     }
+
     .table {
-      width : 80%;
-      text-align : center;
-      margin: auto;
-        /* background: rgb(133, 134, 34) ; */
-  		 border-style: solid;
-	
-    }
-    .text {
-      width: 800px;
-      margin: auto;
-	background-color : #fafafb;
-    }
-    th {
-      background-color:  #f04442;
-      text-align :center;
-      margin: auto;
-      color:  white;
-	font-size : 20px;
-    }
-    img {
+      width: 95%;
       text-align: center;
       margin: auto;
     }
 
-	audio {
-		width : 100%;
-	}
-	.day {
-		
-	   width : 15%;
+    audio {
+      width: 100%;
+    }
 
-		
-	}
-    @media screen and (max-width:750px) {
-      .header{
-        width: 100%;
-      }
-      .text {
-        width: 100%;
-      }
-      .table {
-        width: 95%;
-        text-align : center;
-          margin: auto;
-          }
-	audio {
-		width : 100%;
-	}
-	.day {
-	   width : 15%;
-	}
+    .day {
+      width: 15%;
+    }
+  }
+
+  @media screen and (max-width:650px) {
+    .header {
+      font-size: 35px;
+      font-weight: bold;
+    }
   }
 }
-  </style>
+
+</style>
 </head>
 
 <body>
-  <header class="header" >
-    <p  class="title">
-      HACKERS
+  <header class="header">
+    <p class="title">
+      HACKERS ACADEMIA
     </p>
   </header>
 
-  <div class="topbox">
-    <article class="content">
-      <div class="text">
-        <img width="300px " src="asets/hanna.png" alt="">
-
-
+  <section class="body">
+    <div class="content">
+      <img width="300px " src="asets/hanna.png" alt="">
       <table class="table table-bordered">
         <thead>
           <tr>
-            <th>  </th>
-            <th>Shadowing file</th>
+            <th> </th>
+            <th>Shadowing</th>
           </tr>
         </thead>
         <tbody>
-	<tr>
-            <th class ="day">Day 5</th>
+          <tr>
+            <th class="day">Day 5</th>
             <td>
               <audio controls>
                 <source src="asets/Day5.mp3" type="audio/mpeg">
@@ -120,7 +145,7 @@
             </td>
           <tr>
           <tr>
-            <th class ="day">Day 6</th>
+            <th class="day">Day 6</th>
             <td>
               <audio controls>
                 <source src="asets/Day6.mp3" type="audio/mpeg">
@@ -128,7 +153,7 @@
             </td>
           <tr>
           <tr>
-            <th class ="day">Day 7</th>
+            <th class="day">Day 7</th>
             <td>
               <audio controls>
                 <source src="asets/Day7.mp3" type="audio/mpeg">
@@ -136,7 +161,7 @@
             </td>
           <tr>
           <tr>
-            <th class ="day">Day 8</th>
+            <th class="day">Day 8</th>
             <td>
               <audio controls>
                 <source src="asets/Day8.mp3" type="audio/mpeg">
@@ -144,7 +169,7 @@
             </td>
           <tr>
           <tr>
-            <th class ="day">Day 9</th>
+            <th class="day">Day 9</th>
             <td>
               <audio controls>
                 <source src="asets/Day9.mp3" type="audio/mpeg">
@@ -152,7 +177,7 @@
             </td>
           <tr>
           <tr>
-            <th class ="day">Day 16</th>
+            <th class="day">Day 16</th>
             <td>
               <audio controls>
                 <source src="asets/Day16.mp3" type="audio/mpeg">
@@ -160,7 +185,7 @@
             </td>
           <tr>
           <tr>
-            <th class ="day">Day 17</th>
+            <th class="day">Day 17</th>
             <td>
               <audio controls>
                 <source src="asets/Day17.mp3" type="audio/mpeg">
@@ -168,7 +193,7 @@
             </td>
           <tr>
           <tr>
-            <th class ="day">Day 18</th>
+            <th class="day">Day 18</th>
             <td>
               <audio controls>
                 <source src="asets/Day18.mp3" type="audio/mpeg">
@@ -176,22 +201,32 @@
             </td>
           <tr>
           <tr>
-            <th class ="day">Day 19</th>
+            <th class="day">Day 19</th>
             <td>
               <audio controls>
                 <source src="asets/Day19.mp3" type="audio/mpeg">
               </audio>
             </td>
           <tr>
-	  <tr>
-            <th class ="day">Day 20</th>
+          <tr>
+            <th class="day">Day 20</th>
             <td>
               <audio controls>
                 <source src="asets/Day20.mp3" type="audio/mpeg">
               </audio>
             </td>
           <tr>
-	<!-- 
+      </table>
+    </div>
+  </section>
+
+  <footer class="text-center">
+
+    <p> Made By CSOH </p>
+    <p>Contact information: <a href="mailto:ckdtjs505@naver.com">ckdtjs505@naver.com</a>.</p>
+  </footer>
+
+  <!--
           <tr>
             <th class ="day">Day 1</th>
             <td>
@@ -264,16 +299,8 @@
               </audio>
             </td>
           <tr>
-	--!>
-        </tbody>
-      </table>
-      </div>
-	
-    </article>
+	         -->
 
-  </div>
 </body>
-<script>
-</script>
 
 </html>
